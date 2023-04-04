@@ -18,6 +18,10 @@
   --header-border-bottom-color: #ececec;
 }
 
+ul {
+  margin: 0px;
+}
+
 li {
   list-style: none;
   padding: 0;
@@ -345,3 +349,6 @@ body {
   color: var(--text-tertiary-color);
 }
 /*PORTFOLIO*/
+
+.header-top {
+}
