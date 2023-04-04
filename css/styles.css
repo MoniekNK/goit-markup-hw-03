@@ -17,21 +17,22 @@
   --quarternary-box-shadow-color: #00000033;
   --header-border-bottom-color: #ececec;
 }
-* {
+
+li {
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-primary-color);
-  background-color: var(--page-primary-background-color);
 }
 
 /* CONTAINER */
 .container {
   max-width: 1200px;
-  margin: 0 auto;
   padding: 0 15px;
+  margin: 0 auto;
 }
 .section {
   padding-top: 94px;
@@ -56,7 +57,7 @@ body {
 
 /* SECTION LOGO */
 
-.logo-blue {
+.logo-color {
   color: var(--object-primary-background-color);
 }
 
@@ -134,7 +135,8 @@ body {
   text-decoration: none;
 }
 
-.contact-list a:hover .contact-list a:focus {
+.contact-list a:hover,
+.contact-list a:focus {
   color: var(--object-primary-background-color);
 }
 
@@ -192,6 +194,7 @@ body {
   list-style-type: none;
   display: flex;
   gap: 30px;
+  padding-bottom: 94px;
 }
 
 .advantage-list {
@@ -222,20 +225,20 @@ body {
 
 /* OFFER */
 
-.offer {
+.offer-section {
   background-color: var(--page-quarternary-background-color);
+  padding-bottom: 94px;
 }
 
 .offer-header {
   color: var(--text-primary-color);
+  background-color: var(--page-quarternary-background-color);
   font-size: 36px;
   line-height: 1.16;
-  margin-bottom: 50px;
-  margin-top: 94px;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 50px;
 }
-
 .offer-list {
   list-style-type: none;
   display: flex;
@@ -248,6 +251,32 @@ body {
 
 .offer-item {
   display: block;
+}
+
+.team-section {
+  background-color: var(--page-tertiary-background-color);
+  width: 100%;
+}
+
+.team-header {
+  color: var(--text-primary-color);
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 15px;
+  margin-top: 50px;
+}
+
+.team-box-img {
   background-color: var(--object-secondary-background-color);
   box-shadow: 0px 2px 1px var(--quarternary-box-shadow-color),
     0px 1px 1px var(--tertiary-box-shadow-color),
@@ -255,33 +284,9 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team {
-  background-color: var(--page-tertiary-background-color);
-  width: 100%;
+.team-box-item {
+  display: block;
 }
-
-.team-box-img {
-  color: var(--text-primary-color);
-  list-style-type: none;
-  display: flex;
-  gap: 30px;
-  width: 100%;
-  justify-content: space-between;
-  padding: 0 15px;
-  margin-top: 50px;
-}
-
-.team-header {
-  font-size: 36px;
-  line-height: 1.2;
-  font-weight: 700;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  margin-top: 188px;
-  padding-top: 94px;
-}
-
 .team-fig-header {
   color: var(--text-primary-color);
   font-size: 16px;
@@ -289,18 +294,19 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 10px auto 30px;
+  margin: 30px auto 30px;
 }
 
 .team-fig-text {
   color: var(--text-secondary-color);
+  font-size: 16px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 10px auto 30px;
+  margin: 30px auto 30px;
 }
 
-/* footer */
+/* FOOTER */
 
 .footer {
   background-color: var(--page-secondary-background-color);
@@ -338,3 +344,4 @@ body {
 .address-link:focus {
   color: var(--text-tertiary-color);
 }
+/*PORTFOLIO*/
