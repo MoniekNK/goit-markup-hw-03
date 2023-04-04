@@ -260,6 +260,7 @@ body {
 .team-section {
   background-color: var(--page-tertiary-background-color);
   width: 100%;
+  padding-bottom: 94px;
 }
 
 .team-header {
