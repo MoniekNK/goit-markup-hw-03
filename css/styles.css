@@ -95,8 +95,14 @@ body {
 }
 .menu-item {
   color: var(--text-primary-color);
+  
 }
-
+.photo-border{
+  border bottom: 
+  border-left: 1px;
+  border-right: 1px;
+  padding:
+}
 .menu-link {
   text-decoration: none;
   font-size: 14px;
@@ -144,28 +150,24 @@ body {
   color: var(--object-primary-background-color);
 }
 
-.slogan-container {
+.slogan-container-section {
   background-color: var(--page-secondary-background-color);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 200px;
-  padding-top: 200px;
-  gap: 30px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 200px 0;
 }
 
 .slogan-title-container {
   color: var(--text-tertiary-color);
+  font-weight: 900;
   text-transform: uppercase;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-align: center;
-  min-height: 120px;
-  max-width: 696px;
-  margin-bottom: 30px;
+  margin: 0 auto;
+  width: 696px;
 }
 
 .slogan-button-container {
@@ -181,14 +183,12 @@ body {
   background-color: var(--object-primary-background-color);
   box-shadow: 0px 4px 4px var(--primary-box-shadow-color);
   border-radius: 4px;
-  border-style: none;
-  padding: 10px 42px;
+  border: none;
+  padding: 10px 40px;
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
-  min-width: 200px;
-  min-height: 50px;
+  margin-top: 40px;
 }
 
 /* ADVANTAGE */
@@ -351,5 +351,80 @@ body {
 }
 /*PORTFOLIO*/
 
-.header-top {
+.portfolio-menu {
+  padding-bottom: 0;
+  background-color: var(--page-quarternary-background-color);
+}
+
+.portfolio-list {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+}
+
+.portfolio-buttons {
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+  padding-left: 0;
+}
+
+.container-button {
+  background-color: var(--page-tertiary-background-color);
+  color: var(--text-primary-color);
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  padding: 6px 22px;
+}
+
+/*OFFER*/
+
+.project-list {
+  padding-top: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: var(--page-quarternary-background-color);
+}
+.photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  gap: 30px;
+}
+
+.project-item {
+  display: block;
+}
+
+.project-photo {
+}
+
+.photo-description {
+}
+
+.photo-header {
+  color: var(--text-primary-color);
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  line-height: 2;
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  padding: 20px 24px 4px;
+}
+
+.photo-text {
+  color: var(--text-secondary-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  padding: 4px 24px 20px;
 }
