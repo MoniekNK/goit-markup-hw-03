@@ -345,11 +345,6 @@ body {
 }
 /*PORTFOLIO*/
 
-.portfolio-menu section {
-  padding-bottom: 0;
-  background-color: var(--page-quarternary-background-color);
-}
-
 .portfolio-buttons {
   display: flex;
   justify-content: center;
@@ -357,7 +352,7 @@ body {
   padding-left: 0;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .container-button {
@@ -376,12 +371,6 @@ body {
 
 /*OFFER*/
 
-.project-list {
-  padding-top: 0;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: var(--page-quarternary-background-color);
-}
 .photo-list {
   display: flex;
   flex-wrap: wrap;
