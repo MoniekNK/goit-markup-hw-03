@@ -96,11 +96,6 @@ body {
 .menu-item {
   color: var(--text-primary-color);
 }
-.photo-border {
-  padding: 20px 24px;
-  border: 1px solid #ffffff;
-  border-top: none;
-}
 
 .menu-link {
   text-decoration: none;
@@ -401,9 +396,11 @@ body {
 .project-photo {
 }
 
-.photo-description {
+.photo-border {
+  padding: 20px 24px;
+  border: 1px solid #ffffff;
+  border-top: none;
 }
-
 .photo-header {
   color: var(--text-primary-color);
   font-size: 18px;
