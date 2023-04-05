@@ -98,7 +98,7 @@ body {
 }
 .photo-border {
   padding: 20px 24px;
-
+  border: 1px solid #ffffff;
   border-top: none;
 }
 
@@ -350,7 +350,7 @@ body {
 }
 /*PORTFOLIO*/
 
-.portfolio-menu {
+.portfolio-menu section {
   padding-bottom: 0;
   background-color: var(--page-quarternary-background-color);
 }
@@ -394,7 +394,7 @@ body {
   gap: 30px;
 }
 
-.project-item {
+.photo-item {
   display: block;
 }
 
@@ -409,6 +409,7 @@ body {
   font-size: 18px;
   letter-spacing: 0.06em;
   line-height: 2;
+  margin-bottom: 4px;
 }
 
 .photo-text {
