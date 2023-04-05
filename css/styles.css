@@ -397,8 +397,9 @@ body {
 }
 
 .photo-border {
+  letter-spacing: 0.06em;
   padding: 20px 24px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--border-color);
   border-top: none;
 }
 .photo-header {
