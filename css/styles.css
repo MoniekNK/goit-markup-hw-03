@@ -101,7 +101,9 @@ body {
   border bottom: 
   border-left: 1px;
   border-right: 1px;
-  padding:
+  1px solid color; 
+   border-top: none;
+   padding: 20px 24px;
 }
 .menu-link {
   text-decoration: none;
@@ -356,18 +358,17 @@ body {
   background-color: var(--page-quarternary-background-color);
 }
 
-.portfolio-list {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 50px;
-}
 
 .portfolio-buttons {
   display: flex;
   justify-content: center;
   column-gap: 8px;
   padding-left: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
 }
+
 
 .container-button {
   background-color: var(--page-tertiary-background-color);
@@ -413,18 +414,12 @@ body {
   font-size: 18px;
   letter-spacing: 0.06em;
   line-height: 2;
-  border-left: 1px solid var(--border-color);
-  border-right: 1px solid var(--border-color);
-  padding: 20px 24px 4px;
-}
+  
 
 .photo-text {
   color: var(--text-secondary-color);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  border-left: 1px solid var(--border-color);
-  border-right: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
-  padding: 4px 24px 20px;
+  
 }
