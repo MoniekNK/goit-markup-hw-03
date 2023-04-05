@@ -327,21 +327,29 @@ body {
   display: flex;
   flex-direction: column;
   width: fit-content;
-  gap: 9px;
   color: var(--text-tertiary-color);
+  gap: 9px;
 }
 
 .address-item {
 }
 
 .address-list {
-}
-.address-style {
+  margin-top: 20px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 9px;
 }
 
 .address-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--alpha-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   text-decoration: none;
+  font-style: normal;
+  gap: 9px;
 }
 
 .address-link:hover,
