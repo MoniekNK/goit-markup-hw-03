@@ -334,6 +334,11 @@ body {
 .address-item {
 }
 
+.address-list {
+}
+.address-style {
+}
+
 .address-link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
