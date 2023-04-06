@@ -256,8 +256,9 @@ body {
   color: var(--text-primary-color);
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
   text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -266,7 +267,7 @@ body {
   justify-content: space-between;
   width: 100%;
   padding: 0 15px;
-  margin-top: 50px;
+  padding-bottom: 94px;
 }
 
 .team-box-img {
