@@ -258,7 +258,6 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -267,7 +266,7 @@ body {
   justify-content: space-between;
   width: 100%;
   padding: 0 15px;
-  padding-bottom: 94px;
+  margin-top: 50px;
 }
 
 .team-box-img {
