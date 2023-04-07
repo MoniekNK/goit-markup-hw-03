@@ -145,7 +145,7 @@ body {
   color: var(--object-primary-background-color);
 }
 
-.slogan-container-section {
+.slogan-container {
   background-color: var(--page-secondary-background-color);
   margin: 0 auto;
   text-align: center;
@@ -204,6 +204,8 @@ body {
   padding-right: 15px;
   justify-content: space-between;
   column-gap: 30px;
+  text-align: justify;
+  padding-bottom: 0;
 }
 
 .advantage-title {
@@ -215,6 +217,7 @@ body {
 .advantage-text {
   color: var(--text-secondary-color);
   line-height: 1.7;
+  width: 270px;
 }
 
 /* OFFER */
