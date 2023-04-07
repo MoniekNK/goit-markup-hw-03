@@ -192,20 +192,14 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
   width: 100%;
-  padding-bottom: 0;
-  padding-left: 15px;
-  padding-right: 15px;
   background-color: var(--page-quarternary-background-color);
 }
 
 .advantage-list {
   display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
   justify-content: space-between;
   column-gap: 30px;
   text-align: justify;
-  padding-bottom: 0;
 }
 
 .advantage-title {
@@ -240,9 +234,6 @@ body {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  padding: 0 15px;
-  margin-top: 50px;
-  margin-bottom: 94px;
   gap: 30px;
 }
 
