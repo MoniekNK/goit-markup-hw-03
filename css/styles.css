@@ -18,8 +18,25 @@
   --header-border-bottom-color: #ececec;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  margin: 0;
+  text-decoration: none;
+}
+
 ul {
-  margin: 0px;
+  margin: 0;
+  list-style: none;
+  padding: 0;
 }
 
 li {
@@ -259,8 +276,6 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 0 15px;
-  margin-top: 50px;
 }
 
 .team-box-img {
