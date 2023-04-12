@@ -210,6 +210,7 @@ body {
   font-size: 14px;
   width: 100%;
   background-color: var(--page-quarternary-background-color);
+  padding-bottom: 0;
 }
 
 .advantage-list {
@@ -220,9 +221,11 @@ body {
 }
 
 .advantage-title {
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--text-primary-color);
+  margin-bottom: 10px;
 }
 
 .advantage-text {
@@ -368,12 +371,17 @@ body {
   padding-left: 0;
   margin-bottom: 50px;
 }
+.container-button:hover,
+.container-button:focus {
+  background-color: var(--object-primary-background-color);
+  color: var(--object-secondary-background-color);
+  box-shadow: 0px 4px 4px var(--primary-box-shadow-color);
+}
 
 .container-button {
   background-color: var(--page-tertiary-background-color);
   color: var(--text-primary-color);
   border: 0;
-
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
@@ -381,7 +389,6 @@ body {
   text-align: center;
   cursor: pointer;
   letter-spacing: 0.06em;
-
   padding: 6px 22px;
 }
 
